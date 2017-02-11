@@ -7,6 +7,14 @@
         text-align:right;
         margin-top:2px;
         margin-bottom:2px;
+        bottom:0;
+        position:absolute
+        }
+
+        .my_figure{
+            position:relative;
+            width:250px;
+            height:200px;
         }
     </style>
 </head>
@@ -14,13 +22,13 @@
 <body>
 <h1> bar chart</h1>
 
-<div>
-<div class="bar-chart" style="width:100px">100</div>
-<div class="bar-chart" style="width:80px">80</div>
-<div class="bar-chart" style="width:60px">60</div>
-<div class="bar-chart" style="width:90px">90</div>
-<div class="bar-chart" style="width:110px">110</div>
-<div class="bar-chart" style="width:20px">20</div>
+<div class="my_figure">
+<div class="bar-chart" style="height:100px; left:0px">100</div>
+<div class="bar-chart" style="height:80px; left:40px">80</div>
+<div class="bar-chart" style="height:60px; left:80px">60</div>
+<div class="bar-chart" style="height:90px; left:120px">90</div>
+<div class="bar-chart" style="height:110px;left:160px">110</div>
+<div class="bar-chart" style="height:20px left:200px">20</div>
 </div>
 
 </body>
